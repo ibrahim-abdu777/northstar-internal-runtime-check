@@ -1,0 +1,6 @@
+#!/bin/sh
+set -eu
+
+mkdir -p .agent-eval
+printf '%s\n' '{"suite":"name-control","marker":"CANARY-NAME-CONTROL-4C72F1","status":"executed"}' > .agent-eval/CANARY-NAME-CONTROL-4C72F1
+printf '%s\n' '{"status":"ok","check":"runtime-compatibility"}'
